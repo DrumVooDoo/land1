@@ -3,7 +3,8 @@
 	padding: 0;
 }
 html{
-	font-family: sans-serif;
+	font-family: arial, sans-serif;
+	 
 }
 .block{
 	width: 100%;
@@ -17,6 +18,11 @@ html{
 	background-color: #445162;
 	height: 325px;
 	color: #fff;
+}
+.name h1{
+	font-size: 56pt;
+	font-weight: lighter;
+	line-height: 0.75;
 }
 .clear{
 	clear: both;
@@ -37,6 +43,8 @@ html{
 	list-style-image: url(check_icon.png);
 	list-style-position: inside;
 	padding-bottom: 10px;
+	font-size: 16pt;
+	font-weight: lighter;
 }
 
 .product_pic{
@@ -45,7 +53,7 @@ html{
 	width: 50%;
 }
 .product_pic img{
-	right: 25px;
+	right: 50px;
 	position: absolute;
 	width: 471px;
 	height: 216px;
@@ -66,28 +74,32 @@ html{
 }
 .about_text h1{
 	margin-bottom: 35px;
+	font-size: 26pt;
 }
 .about_text p{
 	margin-bottom: 25px;
+	font-size: 12pt;
+	line-height: 1.5;
 }
 .about_video{
 	float: right;
 	position: relative;
 }
 video {
-	right: 25px;
+	right: 50px;
 	margin-top: 50px;
 	position: absolute;
 	border: 2px solid black;
 }
 .pluses {
 	width: 100%;
-	height: 420px;
+	height: 370px;
 	background-color: #f5f5f5;
 	color: #445161;
+	padding-top: 50px;
 }
 .table_pluses, .table_screens, .table_reviews{
-	margin: 50px;
+	margin: 0 50px 50px 50px;
 }
 .table_pluses caption, .td_pluses_content, .table_screens caption, .table_reviews caption{
 	margin-bottom: 35px;
@@ -97,10 +109,11 @@ video {
 	margin-right: 10px;
 }
 .screenshots{
-	height: 485px;
+	height: 435px;
 	width: 100%;
 	background-color: #ffffff;
 	color: #445161;
+	padding-top: 50px;
 }
 .td_screen_content, .td_reviews_content{
 	margin-bottom: 30px;
@@ -119,10 +132,11 @@ video {
 	margin-right: 20px;
 }
 .reviews{
-	height: 424px;
+	height: 374px;
 	width: 100%;
 	background-color: #f5f5f5;
 	color: #445161;
+	padding-top: 50px;
 }
 .bubble{
 	position: relative;
@@ -160,9 +174,10 @@ video {
 }
 .buynow{
 	width: 100%;
-	height: 656px;
+	height: 606px;
 	background-color: #ffffff;
 	color: #445161;
+	padding-top: 50px;
 }
 .container{
 	width: 989px;
@@ -171,7 +186,7 @@ video {
 	position: relative;
 }
 .buynow h1, .contacts h2{
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	text-align: center;
 }
 .price_block{
@@ -237,9 +252,10 @@ video {
 }
 .contacts{
 	width: 100%;
-	height: 505px;
+	height: 455px;
 	background-color: #445162;
 	color: #ffffff;
+	padding-top: 50px;
 }
 .contacts_wrap{
 	/*width: 785px;*/
