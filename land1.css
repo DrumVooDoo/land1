@@ -16,8 +16,11 @@ html{
 .name{
 	width: 100%;
 	background-color: #445162;
-	height: 325px;
+	/*height: 325px;*/
 	color: #fff;
+}
+.wrapper_name{
+	padding: 50px 50px 50px 50px;
 }
 .name h1{
 	font-size: 56pt;
@@ -29,15 +32,13 @@ html{
 }
 .product_text{
 	float: left;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	width: 50%;
-}
-.product_text h1{
-	padding-left: 50px;
 }
 .list ul{
 	padding-top: 40px;
-	margin-left: 50px;
+	/*margin-left: 50px;
+	magin-bottom: 50px;*/
 }
 .list li{
 	list-style-image: url(check_icon.png);
@@ -46,6 +47,9 @@ html{
 	font-size: 16pt;
 	font-weight: lighter;
 }
+.list li:last-child{
+	padding-bottom: 0;
+}
 
 .product_pic{
 	position: relative;
@@ -53,23 +57,26 @@ html{
 	width: 50%;
 }
 .product_pic img{
-	right: 50px;
+	right: 0px;
 	position: absolute;
 	width: 471px;
 	height: 216px;
-	margin: 50px 0px;
-
+	/*margin: 50px 0px;*/
 }
 .about{
 	width: 100%;
 	background-color: #fff;
-	height: 345px;
+	/*height: 345px;*/
 	color: #445161;
+}
+.wrapper_about{
+	padding: 50px;
+	background-color: #fff;
 }
 .about_text{
 	float: left;
-	margin-top: 50px;
-	margin-left: 50px;
+	/*margin-top: 50px;
+	margin-left: 50px;*/
 	width: 55%;
 }
 .about_text h1{
@@ -81,25 +88,28 @@ html{
 	font-size: 12pt;
 	line-height: 1.5;
 }
+.about_text p:last-child{
+	margin-bottom: 0;
+}
 .about_video{
 	float: right;
 	position: relative;
 }
 video {
-	right: 50px;
-	margin-top: 50px;
+	right: 0;
+	/*margin-top: 50px;*/
 	position: absolute;
 	border: 2px solid black;
 }
 .pluses {
 	width: 100%;
-	height: 370px;
+	/*height: 370px;*/
 	background-color: #f5f5f5;
 	color: #445161;
 	padding-top: 50px;
 }
 .table_pluses, .table_screens, .table_reviews{
-	margin: 0 50px 50px 50px;
+	padding: 0 50px 50px 50px;
 }
 .table_pluses caption, .td_pluses_content, .table_screens caption, .table_reviews caption{
 	margin-bottom: 35px;
@@ -109,7 +119,7 @@ video {
 	margin-right: 10px;
 }
 .screenshots{
-	height: 435px;
+	/*height: 435px;*/
 	width: 100%;
 	background-color: #ffffff;
 	color: #445161;
@@ -120,6 +130,9 @@ video {
 	margin-right: 20px;
 	width: 100%;
 }
+.td_screen_content p{
+	margin-right: 20px;
+}
 .screen_text h3{
 	margin-bottom: 20px;
 }
@@ -129,10 +142,9 @@ video {
 }
 .last_row{
 	margin-bottom: 0;
-	margin-right: 20px;
 }
 .reviews{
-	height: 374px;
+	/*height: 375px;*/
 	width: 100%;
 	background-color: #f5f5f5;
 	color: #445161;
@@ -174,15 +186,16 @@ video {
 }
 .buynow{
 	width: 100%;
-	height: 606px;
+	/*height: 606px;*/
 	background-color: #ffffff;
 	color: #445161;
 	padding-top: 50px;
 }
 .container{
-	width: 989px;
-	height: 498px;
-	margin: 34px 150px 50px 150px;
+	width: 1004px;
+	/*height: 498px;*/
+	margin: 34px auto 0 auto;
+	padding-bottom: 50px;
 	position: relative;
 }
 .buynow h1, .contacts h2{
@@ -191,11 +204,12 @@ video {
 }
 .price_block{
 	width: 298px;
-	border: 1px solid black;
-	float: left;
+	border: 1px solid #445162;
 	background-color: #445162;
 	border-radius: 2px;
 	color: #ffffff;
+	display: inline-block;
+	vertical-align: bottom;
 }
 .price_name{
 	text-align: center;
@@ -231,24 +245,21 @@ video {
 	font-weight: bold;
 }
 .standart {
-	height: 305px;
-	position: absolute;
-	bottom: 0;
-	float: left;
+	/*height: 305px;*/
+	margin-right: 45px;
 }
 .premium {
-	height: 405px;
+	/*height: 405px;
 	position: absolute;
 	left: 344px;
-	bottom: 0;
-	float: left;
+	bottom: 0;*/
+	margin-right: 45px;
 }
 .lux{
-	height: 498px;
+	/*height: 498px;
 	position: absolute;
 	left: 687px;
-	bottom: 0;
-	float: left;
+	bottom: 0;*/
 }
 .contacts{
 	width: 100%;
