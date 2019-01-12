@@ -344,6 +344,10 @@ input::placeholder, textarea::placeholder{
 	outline: none;
 	padding: 0;
 }
+.twit:hover{
+	background-color: #00acee;
+	border-radius: 50%;
+}
 .face{
 	display: inline-block;
 	width: 43px;
@@ -352,6 +356,10 @@ input::placeholder, textarea::placeholder{
 	background: url(social_buttons.png) -49px 0 no-repeat;
 	outline: none;
 	padding: 0;
+}
+.face:hover{
+	background-color: #3b5998;
+	border-radius: 50%;
 }
 .in{
 	display: inline-block;
@@ -362,6 +370,11 @@ input::placeholder, textarea::placeholder{
 	padding: 0;
 	background: url(social_buttons.png) -99px 0 no-repeat;
 }
+.in:hover{
+	background-color: #0077b5;
+	border-radius: 50%;
+
+}
 .g{
 	display: inline-block;
 	width: 43px;
@@ -371,6 +384,10 @@ input::placeholder, textarea::placeholder{
 	outline: none;
 	padding: 0;
 }
+.g:hover{
+	background-color: #4285F4;
+	border-radius: 50%;
+}
 .yt{
 	display: inline-block;
 	width: 43px;
@@ -378,6 +395,10 @@ input::placeholder, textarea::placeholder{
 	background: url(social_buttons.png) -198px 0 no-repeat;
 	outline: none;
 	padding: 0;
+}
+.yt:hover{
+	background-color: #c4302b;
+	border-radius: 50%;
 }
 .registr{
 	width: 261px;
